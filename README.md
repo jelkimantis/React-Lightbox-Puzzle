@@ -14,9 +14,10 @@ Done:
 * Display Grid
 * elevate state of squares
 * change color of individual squares
+* change colors of adjacent squares
 
 TODO:
-* change colors of adjacent squares
 * determine winners
 * add additional containers and style
 * add turn counter
+* make board size mutable (harder/easier games)
