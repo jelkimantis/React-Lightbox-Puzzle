@@ -15,9 +15,9 @@ Done:
 * elevate state of squares
 * change color of individual squares
 * change colors of adjacent squares
+* determine winners
 
 TODO:
-* determine winners
 * add additional containers and style
 * add turn counter
 * make board size mutable (harder/easier games)

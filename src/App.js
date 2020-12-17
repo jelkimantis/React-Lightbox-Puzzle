@@ -46,9 +46,18 @@ class App extends React.Component {
 
     this.setState({
       lightOn: lightsOn});
+    
+    if(this.checkWin()) alert("Winner");
   }
   checkWin(){
     //look in lightOn state to see if there are any false values
+    for(let i=0; i < this.state.lightOn.length; i++){
+      console.log(i)
+      for(let s=0; s < this.state.lightOn[i].length; s++){
+        if(this.state.lightOn[i][s]) return false;
+      }
+    }
+    return true;
   }
   makeSquares(xValue, yValue){
     //console.log(this.state.lightOn);
